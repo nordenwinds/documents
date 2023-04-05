@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../styles/base.css"></link>
 <link rel="stylesheet" href="../styles/auto_numbering_header.css"></link>
 
 # Norden Wind Ensemble 規約
