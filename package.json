@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "textlint docs/** && prettier --check docs/**",
     "lint:fix": "textlint --fix docs/** && prettier --write docs/**",
+    "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md",
     "prepare": "husky install"
   },
   "author": "Norden Wind Ensemble",
@@ -16,5 +17,8 @@
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "textlint": "^13.3.1",
     "textlint-rule-preset-jtf-style": "^2.3.13"
+  },
+  "dependencies": {
+    "md-to-pdf": "^5.2.4"
   }
 }
