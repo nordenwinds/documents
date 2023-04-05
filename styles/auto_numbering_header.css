@@ -1,0 +1,13 @@
+body {
+    counter-reset: h1counter h2counter h3counter h4counter h5counter h6counter;
+}
+
+h2:before {
+    counter-increment: h2counter;
+    content: "\7b2c" counter(h2counter) "\7ae0\a0";
+}
+
+h3:before {
+    counter-increment: h3counter;
+    content: "\7b2c" counter(h3counter) "\6761\a0";
+}
