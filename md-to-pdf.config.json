@@ -1,0 +1,9 @@
+{
+    "page_media_type": "print",
+    "pdf_options": {
+      "format": "A4",
+      "margin": "12.5mm"
+    },
+    "md_file_encoding": "utf-8",
+    "stylesheet_encoding": "utf-8"
+  }

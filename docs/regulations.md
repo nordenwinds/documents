@@ -1,3 +1,10 @@
+---
+# For md-to-pdf
+stylesheet:
+  - styles/base.css
+  - styles/auto_numbering_header.css
+---
+
 <link rel="stylesheet" href="../styles/base.css"></link>
 <link rel="stylesheet" href="../styles/auto_numbering_header.css"></link>
 
