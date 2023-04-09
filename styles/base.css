@@ -1,0 +1,79 @@
+body {
+    font-family: 'BlinkMacSystemFont', 'Roboto', 'YuGothic';
+    font-size: 10.5px;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    max-width: 100%;
+    color: #000000;
+    background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    margin: 1.5rem auto;
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    word-break: break-word;
+}
+
+ol,
+ul {
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding: 0 0 0 0.5rem;
+}
+
+li p:last-child {
+    margin: 0;
+}
+
+@media print {
+    body {
+        overflow: visible;
+    }
+
+    p {
+        break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        break-inside: avoid;
+        break-after: avoid;
+    }
+
+    ul,
+    ol {
+        orphans: 3;
+        widows: 3;
+
+    }
+}
