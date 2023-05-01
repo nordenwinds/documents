@@ -1,22 +1,27 @@
 name: CI
 
-on: 
-  - push
-  - pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'styles/**'
 
 jobs:
   lint:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Resolve Dependencies
-      run: npm ci
+      - name: Resolve Dependencies
+        run: npm ci
 
-    - name: Check docs
-      run: npm run lint
+      - name: Check docs
+        run: npm run lint
