@@ -1,13 +1,8 @@
-name: CI
+name: checks
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    paths:
-      - 'docs/**'
-      - 'styles/**'
+  pull_request: ~
+  merge_group: ~
 
 jobs:
   lint:
@@ -16,12 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      - uses: oven-sh/setup-bun@v1
 
       - name: Resolve Dependencies
-        run: npm ci
+        run: bun install --frozen-lockfile
 
       - name: Check docs
-        run: npm run lint
+        run: bun lint
