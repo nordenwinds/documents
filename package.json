@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Documents of Norden Wind Ensemble",
   "scripts": {
-    "lint": "textlint docs/** && prettier --check docs/**",
-    "lint:fix": "textlint --fix docs/** && prettier --write docs/**",
+    "lint": "textlint docs/** && prettier --check .",
+    "lint:fix": "textlint --fix docs/** && prettier --write .",
     "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md",
     "prepare": "husky install"
   },
