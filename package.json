@@ -16,7 +16,7 @@
     "prettier": "^3.0.3",
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "textlint": "^14.0.3",
-    "textlint-rule-preset-jtf-style": "^2.3.13"
+    "textlint-rule-preset-jtf-style": "^3.0.1"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"
