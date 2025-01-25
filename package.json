@@ -6,7 +6,7 @@
     "lint": "textlint docs/** && prettier --check .",
     "lint:fix": "textlint --fix docs/** && prettier --write .",
     "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "Norden Wind Ensemble",
   "license": "MIT",
