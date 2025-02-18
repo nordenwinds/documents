@@ -7,8 +7,8 @@ updates:
     schedule:
       interval: "monthly"
 
-  # Maintain dependencies for npm
-  - package-ecosystem: "npm"
+  # Maintain dependencies for bun
+  - package-ecosystem: "bun"
     directory: "/"
     schedule:
       interval: "monthly"
