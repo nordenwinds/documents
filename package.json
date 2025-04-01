@@ -15,7 +15,7 @@
     "lint-staged": "^15.4.3",
     "prettier": "^3.5.3",
     "prettier-plugin-md-nocjsp": "^1.5.1",
-    "textlint": "^14.4.2",
+    "textlint": "^14.6.0",
     "textlint-rule-preset-jtf-style": "^3.0.2"
   },
   "dependencies": {
