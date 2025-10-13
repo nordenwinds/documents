@@ -1,3 +1,0 @@
-"docs/*":
-  - "textlint"
-  - "prettier --check"
