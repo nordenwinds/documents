@@ -5,14 +5,12 @@
   "scripts": {
     "lint": "textlint docs/** && prettier --check .",
     "lint:fix": "textlint --fix docs/** && prettier --write .",
-    "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md",
-    "prepare": "husky"
+    "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md"
   },
   "author": "Norden Wind Ensemble",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^9.1.7",
-    "lint-staged": "^16.1.2",
+    "@socketsecurity/bun-security-scanner": "^1.1.0",
     "prettier": "^3.6.2",
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "textlint": "^15.2.1",
