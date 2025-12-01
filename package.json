@@ -17,6 +17,6 @@
     "textlint-rule-preset-jtf-style": "^3.0.3"
   },
   "dependencies": {
-    "md-to-pdf": "^5.2.4"
+    "md-to-pdf": "^5.2.5"
   }
 }
