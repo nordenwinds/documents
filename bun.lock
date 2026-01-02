@@ -8,7 +8,7 @@
         "md-to-pdf": "^5.2.4",
       },
       "devDependencies": {
-        "@socketsecurity/bun-security-scanner": "^1.1.0",
+        "@socketsecurity/bun-security-scanner": "^1.1.2",
         "prettier": "^3.7.4",
         "prettier-plugin-md-nocjsp": "^1.5.1",
         "textlint": "^15.2.3",
@@ -51,7 +51,7 @@
 
     "@samverschueren/stream-to-observable": ["@samverschueren/stream-to-observable@0.3.1", "", { "dependencies": { "any-observable": "^0.3.0" } }, "sha512-c/qwwcHyafOQuVQJj0IlBjf5yYgBI7YPJ77k4fOJYesb41jio65eaJODRUmfYKhTOFBrIZ66kgvGPlNbjuoRdQ=="],
 
-    "@socketsecurity/bun-security-scanner": ["@socketsecurity/bun-security-scanner@1.1.0", "", {}, "sha512-kbZubfWPJzjohHBJjbT/vNRWh8y2hPnHjU3Qv5jxjZN0UvwetsJrfivixRwVZ+kZvIskkijXZTcyk0duYw/8WQ=="],
+    "@socketsecurity/bun-security-scanner": ["@socketsecurity/bun-security-scanner@1.1.2", "", {}, "sha512-TdsAg6SMolubyZ6HfIjLWlANfHvhV6i7pdWof4OQ33zPEwXJm2ilA755levHMR618MKq22+06Ag8efiVKowxqA=="],
 
     "@textlint/ast-node-types": ["@textlint/ast-node-types@15.2.3", "", {}, "sha512-GEhoxfmh6TF+xC8TJmAUwOzzh0J6sVDqjKhwTTwetf7YDdhHbIv1PuUb/dTadMVIWs1H0+JD4Y27n6LWMmqn9Q=="],
 
