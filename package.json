@@ -5,8 +5,8 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "lint": "textlint docs/** && prettier --check .",
-    "lint:fix": "textlint --fix docs/** && prettier --write .",
+    "check": "textlint docs/** && prettier --check .",
+    "fix": "textlint --fix docs/** && prettier --write .",
     "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md"
   },
   "devDependencies": {
