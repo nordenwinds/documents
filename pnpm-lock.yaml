@@ -7,11 +7,10 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       md-to-pdf:
         specifier: ^5.2.4
         version: 5.2.5
-    devDependencies:
       prettier:
         specifier: ^3.7.4
         version: 3.7.4
