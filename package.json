@@ -1,22 +1,20 @@
 {
   "name": "documents",
-  "version": "1.0.0",
   "description": "Documents of Norden Wind Ensemble",
-  "scripts": {
-    "lint": "textlint docs/** && prettier --check .",
-    "lint:fix": "textlint --fix docs/** && prettier --write .",
-    "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md"
-  },
   "author": "Norden Wind Ensemble",
   "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "check": "textlint docs/** && prettier --check .",
+    "fix": "textlint --fix docs/** && prettier --write .",
+    "build": "md-to-pdf --config-file md-to-pdf.config.json docs/*.md"
+  },
   "devDependencies": {
-    "@socketsecurity/bun-security-scanner": "^1.1.0",
+    "md-to-pdf": "^5.2.4",
     "prettier": "^3.7.4",
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "textlint": "^15.2.3",
     "textlint-rule-preset-jtf-style": "^3.0.3"
   },
-  "dependencies": {
-    "md-to-pdf": "^5.2.4"
-  }
+  "packageManager": "pnpm@10.27.0"
 }
