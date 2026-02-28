@@ -16,5 +16,5 @@
     "textlint": "^15.2.3",
     "textlint-rule-preset-jtf-style": "^3.0.3"
   },
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.30.3"
 }
