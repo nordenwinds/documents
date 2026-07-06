@@ -13,10 +13,10 @@ importers:
         version: 5.2.5
       prettier:
         specifier: ^3.7.4
-        version: 3.9.1
+        version: 3.9.3
       prettier-plugin-md-nocjsp:
         specifier: ^1.5.1
-        version: 1.5.1(prettier@3.9.1)
+        version: 1.5.1(prettier@3.9.3)
       textlint:
         specifier: ^15.2.3
         version: 15.7.1
@@ -1270,8 +1270,8 @@ packages:
     peerDependencies:
       prettier: 2.x
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
+  prettier@3.9.3:
+    resolution: {integrity: sha512-HWmu+K+zvHNpaMfSnYeqdqrDbR16cuIXaPx8WoHaviQkDJh1/0BNtOZmHVQI5jc3wXv0H1yXc9wjvFdXh+n3hQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3063,11 +3063,11 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-md-nocjsp@1.5.1(prettier@3.9.1):
+  prettier-plugin-md-nocjsp@1.5.1(prettier@3.9.3):
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.3
 
-  prettier@3.9.1: {}
+  prettier@3.9.3: {}
 
   prh@5.4.4:
     dependencies:
