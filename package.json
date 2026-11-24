@@ -13,7 +13,7 @@
     "md-to-pdf": "^5.2.4",
     "prettier": "^3.7.4",
     "prettier-plugin-md-nocjsp": "^1.5.1",
-    "textlint": "^15.2.3",
+    "textlint": "^16.0.0",
     "textlint-rule-preset-jtf-style": "^3.0.3"
   },
   "packageManager": "pnpm@10.34.9"
